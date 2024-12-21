@@ -26,7 +26,7 @@ def initialize_sagemaker():
     bucket = 'sagemakerbucketeducation'
     aws_region = 'us-east-1'
 
-    iam = boto3.client('iam')
+    iam = boto3.client('iam', region_name=aws_region)
     sagemaker_client = boto3.client('sagemaker')
     sagemaker_execution_role_name = 'SagemakerRole'
 
