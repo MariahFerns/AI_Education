@@ -1,0 +1,14 @@
+boto3 
+sagemaker 
+transformers 
+flask 
+gunicorn 
+pypdf 
+langchain 
+chromadb
+langchain-community
+sentence-transformers
+ipykernel
+unstructured
+faiss-cpu
+PyPDF2
